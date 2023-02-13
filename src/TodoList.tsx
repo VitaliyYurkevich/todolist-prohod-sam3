@@ -23,7 +23,7 @@ function TodoList(props: TodolistType)  {
             <h3>{props.title}</h3>
             <div>
                 <input/>
-                <button onClick={()=>{props.AddTask}}>+</button>
+                <button onClick={()=>{}}>+</button>
             </div>
             <ul>
                 {props.tasks.map((t)=>{
