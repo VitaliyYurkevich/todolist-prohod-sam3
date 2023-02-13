@@ -15,6 +15,13 @@ function App() {
 
     let [filtered, setFiltered] = useState<FilterType>('all')
 
+    let AddTask = (title:string) => {
+        let task = {id: v1(), title: title, isDone: true}
+        let newTask = [...tasks, task]
+        setTasks(newTask)
+    }
+
+
     let FilteredTask = (value:FilterType) => {
         setFiltered(value)
     }
@@ -39,6 +46,7 @@ function App() {
                       tasks={FilteredTasks}
                       ChangeTasks={ChangeTasks}
                       FilteredTask={FilteredTask}
+                      AddTask={AddTask}
             />
         </div>
     );
