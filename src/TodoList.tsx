@@ -16,7 +16,7 @@ export type TasksType ={
     isDone: boolean
 }
 
-console.log('sad')
+
 function TodoList(props: TodolistType)  {
     return(
         <div>
