@@ -12,9 +12,9 @@ function App() {
         {id: v1(), title: 'JS', isDone: true},
         {id: v1(), title: 'React', isDone: false}
     ])
-    console.log('asda')
-    let [filtered, setFiltered] = useState<FilterType>('all')
 
+    let [filtered, setFiltered] = useState<FilterType>('all')
+    console.log('asda')
     let AddTask = (title:string) => {
         let task = {id: v1(), title: title, isDone: true}
         let newTask = [...tasks, task]
