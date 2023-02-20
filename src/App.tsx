@@ -14,13 +14,13 @@ function App() {
     ])
 
     let [filtered, setFiltered] = useState<FilterType>('all')
-    console.log('asda')
+
     let AddTask = (title:string) => {
         let task = {id: v1(), title: title, isDone: true}
         let newTask = [...tasks, task]
         setTasks(newTask)
     }
-    console.log('asda')
+
 
     let FilteredTask = (value:FilterType) => {
         setFiltered(value)
