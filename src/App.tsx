@@ -20,7 +20,7 @@ function App() {
         let newTask = [...tasks, task]
         setTasks(newTask)
     }
-
+    console.log('asda')
 
     let FilteredTask = (value:FilterType) => {
         setFiltered(value)
