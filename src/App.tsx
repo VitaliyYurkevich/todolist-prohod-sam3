@@ -21,7 +21,7 @@ function App() {
         setTasks(newTask)
     }
 
-    console.log("sa")
+
     let FilteredTask = (value:FilterType) => {
         setFiltered(value)
     }
