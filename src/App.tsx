@@ -12,7 +12,7 @@ function App() {
         {id: v1(), title: 'JS', isDone: true},
         {id: v1(), title: 'React', isDone: false}
     ])
-
+    console.log('sdfsf')
     let [filtered, setFiltered] = useState<FilterType>('all')
 
     let AddTask = (title:string) => {
