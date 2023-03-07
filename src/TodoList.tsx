@@ -15,7 +15,7 @@ export type TasksType ={
     title: string
     isDone: boolean
 }
-
+console.log('dfs')
 
 function TodoList(props: TodolistType)  {
     return(
