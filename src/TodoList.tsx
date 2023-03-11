@@ -9,7 +9,7 @@ export type TodolistType = {
     FilteredTask: (value: FilterType) => void
     AddTask: (title: string) => void
 }
-console.log('asd')
+
 export type TasksType ={
     id: string
     title: string
