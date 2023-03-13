@@ -24,7 +24,7 @@ function App() {
     let FilteredTask = (value:FilterType) => {
         setFiltered(value)
     }
-    console.log('zxc')
+
     let ChangeTasks = (id: string) => {
         let filtTask = tasks.filter(t => t.id !== id)
         setTasks(filtTask)
