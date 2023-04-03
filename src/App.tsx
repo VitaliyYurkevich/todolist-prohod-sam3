@@ -29,7 +29,7 @@ function App() {
         let filtTask = tasks.filter(t => t.id !== id)
         setTasks(filtTask)
     }
-
+    console.log('a')
     let FilteredTasks = tasks
     if(filtered === 'completed'){
         FilteredTasks = tasks.filter(t=>t.isDone === true)
