@@ -37,7 +37,7 @@ function App() {
     if(filtered === 'active'){
         FilteredTasks =  tasks.filter(t=>t.isDone === false)
     }
-
+    console.log('a')
 
     return (
         <div className="App">
